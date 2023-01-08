@@ -3,7 +3,7 @@ CC = gcc
 SRC=$(wildcard *.c)
 
 
-all: show-bytes32 show-bytes64 
+all:
 
 show-bytes32: show-bytes.c
 	$(CC) $(CFLAGS) -m32 show-bytes.c -o show-bytes32
