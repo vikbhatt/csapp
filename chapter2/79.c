@@ -1,3 +1,3 @@
 #include <stdio.h>
 
-int divide_powerz
+int divide_power
